@@ -5,8 +5,8 @@ import * as AWS from 'aws-sdk';
 export class AppService {
   AWS_S3_BUCKET = 'demo-nest';
   s3 = new AWS.S3({
-    accessKeyId: 'AKIAVD23BX7EN6FUIHG2',
-    secretAccessKey: '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',
+    accessKeyId: 'AKIAVD23BXxxxxxxxxxx',
+    secretAccessKey: 'uwVxyznsJ7PAfgQv4dZBQ5TuZxxxxxxxxxxxxxxx',
   });
 
   async uploadFile(file) {
